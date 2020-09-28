@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<html class="ods_da4a6e51-2544-4c5e-b087-4df82afb8897" lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="SAS 9.4" name="generator"/>
+<title>Results: Program 1</title>
+<style>
+/*<![CDATA[*/
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c section > table, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c section > pre, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c div > table,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c div > pre, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c article > table, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c article > pre,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j section > table, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j section > pre, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j div > table,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j div > pre, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j article > table, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j article > pre,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c p.note, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c p.warning, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c p.error, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c p.fatal,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j p.note, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j p.warning, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j p.error, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j p.fatal,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.c > table.layoutcontainer, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body.j > table.layoutcontainer { margin-left: auto; margin-right: auto }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.l table, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.l pre, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.l p.note,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.l p.warning, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.l p.error, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.l p.fatal { margin-left: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.c table, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.c pre, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.c p.note,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.c p.warning, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.c p.error, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.c p.fatal { margin-left: auto; margin-right: auto }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.r table, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.r pre, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.r p.note,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.r table, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.r pre, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.r p.note,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.r p.warning, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.r p.error, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion.r p.fatal { margin-right: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 article, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 aside, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 details, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 figcaption, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 figure, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 footer, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 header, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 hgroup, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 nav, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 section { display: block }
+html.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 { font-size: 100% }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body { margin: 1em; font-size: 13px; line-height: 1.231 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 sup { position: relative; vertical-align: baseline; bottom: 0.25em; font-size: 0.8em }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 sub { position: relative; vertical-align: baseline; top: 0.25em; font-size: 0.8em }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 ul, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 ol { margin: 1em 0; padding: 0 0 0 40px }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 dd { margin: 0 0 0 40px }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 nav ul, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 img { border: 0; vertical-align: middle }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 svg:not(:root) { overflow: hidden }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 figure { margin: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 table { border-collapse: collapse; border-spacing: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutcontainer { border-collapse: separate; border-spacing: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 p { margin-top: 0; text-align: left }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 h1.heading1 { text-align: left }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 h2.heading2 { text-align: left }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 h3.heading3 { text-align: left }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 h4.heading4 { text-align: left }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 h5.heading5 { text-align: left }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 h6.heading6 { text-align: left }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 span { text-align: left }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 table { margin-bottom: 1em }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 td, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 th { text-align: left; padding: 3px 6px; vertical-align: top }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 td[class$="fixed"], .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 th[class$="fixed"] { white-space: pre }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 section, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 article { padding-top: 1px; padding-bottom: 8px }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 hr.pagebreak { height: 0px; border: 0; border-bottom: 1px solid #c0c0c0; margin: 1em 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .stacked-value { text-align: left; display: block }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .stacked-cell > .stacked-value, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 td.data > td.data, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 th.data > td.data, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 th.data > th.data, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 td.data > th.data, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 th.header > th.header { border: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .stacked-cell > div.data { border-width: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer { white-space: nowrap; margin-bottom: 1em }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer > p { margin: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer > p > span { display: inline-block; width: 100%; white-space: normal }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .batch { display: table }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .toc { display: none }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .proc_note_group, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .proc_title_group { margin-bottom: 1em }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 p.proctitle { margin: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 p.note, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 p.warning, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 p.error, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 p.fatal { display: table }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .notebanner, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .warnbanner, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .errorbanner, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .fatalbanner,
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .notecontent, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .warncontent, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .errorcontent, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .fatalcontent { display: table-cell; padding: 0.5em }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .notebanner, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .warnbanner, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .errorbanner, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .fatalbanner { padding-right: 0 }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body > div > ol li { text-align: left }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .c { text-align: center }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .r { text-align: right }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .l { text-align: left }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .j { text-align: justify }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .d { text-align: right }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .b { vertical-align: bottom }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .m { vertical-align: middle }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .t { vertical-align: top }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .aftercaption {
+    background-color: #fafbfe;
+    border-spacing: 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 4pt;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .batch > colgroup {
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .batch > tbody, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .batch > thead, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .batch > tfoot {
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .batch { border: hidden; }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .batch {
+    background-color: #fafbfe;
+    border: 1px solid #c1c1c1;
+    border-collapse: separate;
+    border-spacing: 1px;
+    color: #000000;
+    font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    padding: 7px;
+    }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .beforecaption {
+    background-color: #fafbfe;
+    border-spacing: 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .body {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bodydate {
+    background-color: #fafbfe;
+    border-spacing: 0;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    text-align: right;
+    vertical-align: top;
+    width: 100%;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bycontentfolder {
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: none;
+    margin-left: 6pt;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .byline {
+    background-color: #fafbfe;
+    border-spacing: 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bylinecontainer > col, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bylinecontainer > colgroup > col, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bylinecontainer > colgroup, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bylinecontainer > tr, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bylinecontainer > * > tr, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bylinecontainer > thead, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bylinecontainer > tbody, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bylinecontainer > tfoot { border: none; }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .bylinecontainer {
+    background-color: #fafbfe;
+    border: none;
+    border-spacing: 1px;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .caption {
+    background-color: #fafbfe;
+    border-spacing: 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .cell, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .container {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .contentfolder, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .contentitem {
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: none;
+    margin-left: 6pt;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .contentproclabel, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .contentprocname {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .contents {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: decimal;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .contentsdate {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .contenttitle {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .continued {
+    background-color: #fafbfe;
+    border-spacing: 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .data, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .dataemphasis {
+    background-color: #ffffff;
+    border-color: #c1c1c1;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .dataemphasisfixed {
+    background-color: #ffffff;
+    border-color: #c1c1c1;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .dataempty {
+    background-color: #ffffff;
+    border-color: #c1c1c1;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .datafixed {
+    background-color: #ffffff;
+    border-color: #c1c1c1;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    font-family: 'Courier New', Courier;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .datastrong {
+    background-color: #ffffff;
+    border-color: #c1c1c1;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .datastrongfixed {
+    background-color: #ffffff;
+    border-color: #c1c1c1;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .date {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .document {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .errorbanner {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .errorcontent {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .errorcontentfixed {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: 'Courier New', Courier;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .extendedpage {
+    background-color: #fafbfe;
+    border-style: solid;
+    border-width: 1pt;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .fatalbanner {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .fatalcontent {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .fatalcontentfixed {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: 'Courier New', Courier;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .folderaction {
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: none;
+    margin-left: 6pt;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .footer {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .footeremphasis {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .footeremphasisfixed {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .footerempty {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .footerfixed {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: 'Courier New', Courier;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .footerstrong {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .footerstrongfixed {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .frame {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .graph > colgroup {
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .graph > tbody, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .graph > thead, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .graph > tfoot {
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .graph { border: hidden; }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .graph {
+    background-color: #fafbfe;
+    border: 1px solid #c1c1c1;
+    border-collapse: separate;
+    border-spacing: 1px;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .header {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .headeremphasis {
+    background-color: #d8dbd3;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .headeremphasisfixed {
+    background-color: #d8dbd3;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .headerempty {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .headerfixed {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: 'Courier New', Courier;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .headersandfooters {
+    background-color: #edf2f9;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .headerstrong {
+    background-color: #d8dbd3;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .headerstrongfixed {
+    background-color: #d8dbd3;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .heading1, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .heading2, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .heading3, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .heading4, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .heading5, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .heading6 { font-family: Arial, Helvetica, sans-serif }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .index {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .indexaction, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .indexitem {
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: none;
+    margin-left: 6pt;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .indexprocname {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .indextitle {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutcontainer, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .layoutregion {
+    border-width: 0;
+    border-spacing: 30px;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .linecontent {
+    background-color: #fafbfe;
+    border-color: #c1c1c1;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .list {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: disc;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .list10 {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: square;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .list2 {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: circle;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .list3, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .list4, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .list5, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .list6, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .list7, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .list8, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .list9 {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: square;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .listitem {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: disc;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .listitem10 {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: square;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .listitem2 {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: circle;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .listitem3, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .listitem4, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .listitem5, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .listitem6, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .listitem7, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .listitem8, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .listitem9 {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: square;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .note {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .notebanner {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .notecontent {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .notecontentfixed {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: 'Courier New', Courier;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .output > colgroup {
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .output > tbody, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .output > thead, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .output > tfoot {
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .output { border: hidden; }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .output {
+    background-color: #fafbfe;
+    border: 1px solid #c1c1c1;
+    border-collapse: separate;
+    border-spacing: 1px;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .pageno {
+    background-color: #fafbfe;
+    border-spacing: 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .pages {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: decimal;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .pagesdate {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .pagesitem {
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: none;
+    margin-left: 6pt;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .pagesproclabel, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .pagesprocname {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .pagestitle {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .paragraph {
+    background-color: #fafbfe;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .parskip > col, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .parskip > colgroup > col, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .parskip > colgroup, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .parskip > tr, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .parskip > * > tr, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .parskip > thead, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .parskip > tbody, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .parskip > tfoot { border: none; }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .parskip {
+    border: none;
+    border-spacing: 0;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+    }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .prepage {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .proctitle {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .proctitlefixed {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowfooter {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowfooteremphasis {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowfooteremphasisfixed {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowfooterempty {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowfooterfixed {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: 'Courier New', Courier;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowfooterstrong {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowfooterstrongfixed {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowheader {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowheaderemphasis {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowheaderemphasisfixed {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowheaderempty {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowheaderfixed {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: 'Courier New', Courier;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowheaderstrong {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .rowheaderstrongfixed {
+    background-color: #edf2f9;
+    border-color: #b0b7bb;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #112277;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemfooter, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemfooter10, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemfooter2, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemfooter3, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemfooter4, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemfooter5, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemfooter6, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemfooter7, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemfooter8, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemfooter9 {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemtitle, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemtitle10, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemtitle2, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemtitle3, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemtitle4, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemtitle5, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemtitle6, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemtitle7, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemtitle8, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systemtitle9 {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer > col, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer > colgroup > col, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer > colgroup, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer > tr, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer > * > tr, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer > thead, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer > tbody, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer > tfoot { border: none; }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .systitleandfootercontainer {
+    background-color: #fafbfe;
+    border: none;
+    border-spacing: 1px;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .table > col, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .table > colgroup > col {
+    border-left: 1px solid #c1c1c1;
+    border-right: 0 solid #c1c1c1;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .table > tr, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .table > * > tr {
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 0 solid #c1c1c1;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .table { border: hidden; }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .table {
+    border-color: #c1c1c1;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .titleandnotecontainer > col, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .titleandnotecontainer > colgroup > col, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .titleandnotecontainer > colgroup, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .titleandnotecontainer > tr, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .titleandnotecontainer > * > tr, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .titleandnotecontainer > thead, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .titleandnotecontainer > tbody, .ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .titleandnotecontainer > tfoot { border: none; }
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .titleandnotecontainer {
+    background-color: #fafbfe;
+    border: none;
+    border-spacing: 1px;
+    color: #000000;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .titlesandfooters {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .usertext {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .warnbanner {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: bold;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .warncontent {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: Arial, 'Albany AMT', Helvetica, Helv;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+.ods_da4a6e51-2544-4c5e-b087-4df82afb8897 .warncontentfixed {
+    background-color: #fafbfe;
+    color: #112277;
+    font-family: 'Courier New', Courier;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+}
+/*]]>*/
+</style>
+</head>
+<body class="body">
+<div id="div_da4a6e51-2544-4c5e-b087-4df82afb8897" class="c body">
+<h1 class="body toc">Results: Program 1</h1>
+<section data-name="Contents" data-sec-type="proc">
+<div id="IDX" class="proc_title_group">
+<p class="c proctitle">The CONTENTS Procedure</p>
+</div>
+<h1 class="contentprocname toc">The CONTENTS Procedure</h1>
+<section>
+<h1 class="contentfolder toc">WORK.GDATA</h1>
+<article aria-label="Attributes">
+<h1 class="contentitem toc">Attributes</h1>
+<table class="table" style="border-spacing: 0" aria-label="Attributes">
+<caption aria-label="Attributes"></caption>
+<colgroup><col/><col/><col/><col/></colgroup>
+<tbody>
+<tr>
+<th class="rowheader" scope="row">Data Set Name</th>
+<td class="data">WORK.GDATA</td>
+<th class="rowheader" scope="row">Observations</th>
+<td class="data">99</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Member Type</th>
+<td class="data">DATA</td>
+<th class="rowheader" scope="row">Variables</th>
+<td class="data">65</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Engine</th>
+<td class="data">V9</td>
+<th class="rowheader" scope="row">Indexes</th>
+<td class="data">0</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Created</th>
+<td class="data">08/08/2017 03:16:46</td>
+<th class="rowheader" scope="row">Observation Length</th>
+<td class="data">552</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Last Modified</th>
+<td class="data">08/08/2017 03:16:46</td>
+<th class="rowheader" scope="row">Deleted Observations</th>
+<td class="data">0</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Protection</th>
+<td class="data">&#160;</td>
+<th class="rowheader" scope="row">Compressed</th>
+<td class="data">NO</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Data Set Type</th>
+<td class="data">&#160;</td>
+<th class="rowheader" scope="row">Sorted</th>
+<td class="data">NO</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Label</th>
+<td class="data">&#160;</td>
+<th class="rowheader" scope="row">&#160;</th>
+<td class="data">&#160;</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Data Representation</th>
+<td class="data">SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64</td>
+<th class="rowheader" scope="row">&#160;</th>
+<td class="data">&#160;</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Encoding</th>
+<td class="data">utf-8  Unicode (UTF-8)</td>
+<th class="rowheader" scope="row">&#160;</th>
+<td class="data">&#160;</td>
+</tr>
+</tbody>
+</table>
+</article>
+<article id="IDX1" aria-label="Engine/Host Information">
+<h1 class="contentitem toc">Engine/Host Information</h1>
+<table class="table" style="border-spacing: 0" aria-label="Engine/Host Information">
+<caption aria-label="Engine/Host Information"></caption>
+<colgroup><col/><col/></colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Engine/Host Dependent Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="rowheader" scope="row">Data Set Page Size</th>
+<td class="data">65536</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Number of Data Set Pages</th>
+<td class="data">2</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">First Data Page</th>
+<td class="data">1</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Max Obs per Page</th>
+<td class="data">118</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Obs in First Data Page</th>
+<td class="data">97</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Number of Data Set Repairs</th>
+<td class="data">0</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Filename</th>
+<td class="data">/tmp/SAS_work54D10000774A_localhost.localdomain/SAS_work9A1C0000774A_localhost.localdomain/gdata.sas7bdat</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Release Created</th>
+<td class="data">9.0401M4</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Host Created</th>
+<td class="data">Linux</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Inode Number</th>
+<td class="data">272032</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Access Permission</th>
+<td class="data">rw-rw-r--</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">Owner Name</th>
+<td class="data">sasdemo</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">File Size</th>
+<td class="data">192KB</td>
+</tr>
+<tr>
+<th class="rowheader" scope="row">File Size (bytes)</th>
+<td class="data">196608</td>
+</tr>
+</tbody>
+</table>
+</article>
+<article id="IDX2" aria-label="Variables">
+<h1 class="contentitem toc">Variables</h1>
+<table class="table" style="border-spacing: 0" aria-label="Variables">
+<caption aria-label="Variables"></caption>
+<colgroup><col/></colgroup><colgroup><col/><col/><col/><col/><col/><col/></colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="7" scope="colgroup">Alphabetic List of Variables and Attributes</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">#</th>
+<th class="b header" scope="col">Variable</th>
+<th class="b header" scope="col">Type</th>
+<th class="r b header" scope="col">Len</th>
+<th class="b header" scope="col">Format</th>
+<th class="b header" scope="col">Informat</th>
+<th class="b header" scope="col">Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="data">ADVNR</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Advance Notice Requirements</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="data">ANTIGREEN</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Antigreenmail</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="data">BLANKCHECK</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Blank Check Preferred</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="data">CBOARD</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Classified Board</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="data">CIK</td>
+<td class="data">Char</td>
+<td class="r data">10</td>
+<td class="data">$10.</td>
+<td class="data">$10.</td>
+<td class="data">CIK</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="data">CN6</td>
+<td class="data">Char</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">Header 6-digit CUSIP</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="data">COMPPLAN</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Compensation Plan with Change in Control</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="data">CONAME</td>
+<td class="data">Char</td>
+<td class="r data">48</td>
+<td class="data">$48.</td>
+<td class="data">$48.</td>
+<td class="data">Company name</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="data">CONFVOTE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Confidential Voting</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="data">CUMVOTE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Cumulative Voting</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="data">CUMVOTESS</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Substantial Shareholder</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="data">DATE1</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">DATE9.</td>
+<td class="data">&#160;</td>
+<td class="data">Beginning Day. Date used to create range of time when data is applicable.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="data">DATE2</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">DATE9.</td>
+<td class="data">&#160;</td>
+<td class="data">Ending Day. Date used to create range of time when data is applicable.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="data">DE_INC</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Delaware Incorporation</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="data">DIRIND</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">1.</td>
+<td class="data">Director Indemnification</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="data">DIRINDC</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">1.</td>
+<td class="data">Indemnification contracts</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="data">DIRLIAB</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">1.</td>
+<td class="data">Director liability</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="data">DUALCLASS</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Dual Class Common Stock</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="data">DUTIESNF</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Director&apos;s Duties--Nonfinancial Impact</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">53</th>
+<td class="data">ECUMVOTE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Eliminate Cumulative Voting</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">54</th>
+<td class="data">EMPC</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Employee Contracts</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="data">EXCH</td>
+<td class="data">Char</td>
+<td class="r data">6</td>
+<td class="data">$6.</td>
+<td class="data">$6.</td>
+<td class="data">Stock Exchange</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="data">EXECSV</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">1.</td>
+<td class="data">Executive severance agreement</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="data">EXSVCHG</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Change in Control Provisions</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="data">FAIRPRICE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Fair Price</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="data">GINDEX</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">Governance Index (Gompers, Ishii, Metrick)</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">49</th>
+<td class="data">GOLDENPARACHUTE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">Combined Golden Parachutes</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="data">GPARACHUTE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Golden Parachutes</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">59</th>
+<td class="data">LABYLW</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Limit Ability to Amend Bylaws</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">58</th>
+<td class="data">LACHTR</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Limit Ability to Amend Charter</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">57</th>
+<td class="data">LSPMT</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Limit Ability to Call Special Meeting</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">56</th>
+<td class="data">LWCNST</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Limit Ability to Act by Written Consent</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="data">OI_BC_GA</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Opt in to BusComb/Freezeout law(GA)</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="data">OI_CSA</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Opt in to control share acquisition law(CSA)</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="data">OI_FP_GA</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Opt in to Fair Price law(GA)</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="data">OO_BUSCOMP</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Opt out of BusComb/Freezeout law</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="data">OO_CASHOUT_PA</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Opt out of control share cashout law (PA)</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="data">OO_CSA</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Opt out of control share acquisition law(CSA)</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="data">OO_DUTIES</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Opt out of directors duties law</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="data">OO_FAIRPRICE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Opt out of Fair Price law</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="data">OO_RPROFITS</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Opt out of Recapture of Profits law</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">51</th>
+<td class="data">PAGE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">IRRC Page Number</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">62</th>
+<td class="data">PERMCO</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">CRSP PERMANENT COMPANY NUMBER</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">63</th>
+<td class="data">PERMNO</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">8.</td>
+<td class="data">8.</td>
+<td class="data">PERMNO</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="data">PPARACHUTE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Pension Parachute</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="data">PPILL</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Poison Pill</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">55</th>
+<td class="data">SCRTBT</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Secret Ballot</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="data">SECRETBALLOT</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">Combined Secret Ballot</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">65</th>
+<td class="data">SERIALNO</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">50</th>
+<td class="data">SEVERANCE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">Combined Severance</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="data">SL_BUSCOMP</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Business Combination Law</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="data">SL_CASHOUT</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Cash out law</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="data">SL_CSA</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Control Share Acquisition Law</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="data">SL_DUTIES</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Director&apos;s Duties Law</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="data">SL_FAIRPRICE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Fair Price Law</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="data">SL_RPROFITS</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">&#160;</td>
+<td class="data">Recapture of profits law</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="data">SPARACHUTE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Silver Parachute</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="data">STATE</td>
+<td class="data">Char</td>
+<td class="r data">2</td>
+<td class="data">$2.</td>
+<td class="data">$3.</td>
+<td class="data">State of Incorporation</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="data">SUPERMAJOR</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Supermajority to Approve Merger</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="data">TICKER</td>
+<td class="data">Char</td>
+<td class="r data">5</td>
+<td class="data">$5.</td>
+<td class="data">$5.</td>
+<td class="data">Ticker</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="data">UNEQVOTE</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">1.</td>
+<td class="data">2.</td>
+<td class="data">Unequal Voting Rights</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">64</th>
+<td class="data">YEAR</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">52</th>
+<td class="data">YR_REINC</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">Year of reincorporation</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">60</th>
+<td class="data">gindex_calc</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">61</th>
+<td class="data">gindex_diff</td>
+<td class="data">Num</td>
+<td class="r data">8</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+<td class="data">&#160;</td>
+</tr>
+</tbody>
+</table>
+</article>
+</section>
+</section>
+</div>
+</body>
+</html>
