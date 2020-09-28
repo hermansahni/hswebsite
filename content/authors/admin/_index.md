@@ -1,75 +1,92 @@
 ---
 # Display name
-title: Nelson Bighetti
-
-# Username (this should match the folder name)
-authors:
-- admin
+title: Herman Sahni
 
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: Professor of Artificial Intelligence
+# Role/position/tagline
+role: Assistant Professor of Finance
 
-# Organizations/Affiliations
+# Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
+- name: Baldwin Wallace University
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include labor economics, health economics, and corporate finance.
 
+# Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Labor economics
+- Health economics
+- Development economics
+- Corporate finance
 
+# Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Economics
+    institution: Northern Illinois University
+    year: 2016
+  - course: MA in Labor and Employment Relations
+    institution: University of Cincinnati
+    year: 2003
+  - course: MA in Business Economics
+    institution: University of Madras, India
+    year: 2001
+  - course: BCom
+    institution: University of Madras, India
+    year: 1999
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: "#contact"
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/HermanHsahni
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=MBgw5DoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+  link: https://github.com/hermansahni
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/hermansahni
+- icon: ideas-repec
+  icon_pack: ai
+  link: https://ideas.repec.org/f/psa1648.html
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0003-3862-1091
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Herman_Sahni
+- icon: publons
+  icon_pack: ai
+  link: https://publons.com/researcher/3119457/herman-sahni
+
+# Link to a PDF of your resume/CV.
+# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
+# and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
-#   link: files/cv.pdf
+#   link: media/resume.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+# Email for Contact widget or Gravatar
+email: "hsahni@bw.edu"
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+#   Remove this if you are not using the People widget.
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Herman Sahni is an assistant professor of economics and finance at the Baldwin Wallace University. Her research interests include labor economics, health economics, development economics, and corporate finance. Her current research estimates of the effects of caregiving for older family members with Alzheimers on the labor supply of coresiding younger family members, the impact of electricity access to early childhood education in India, the state-wise analyzes of the relationship between opioid prescribing habits of physicians and the monetary gifts that they receive from pharmaceutical companies in the presence of real-time prescription drug monitoring programs (PDMPs), and market restrictions to business networking of female CEOs and how it impacts their decision-making.
