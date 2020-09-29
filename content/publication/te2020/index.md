@@ -53,8 +53,8 @@ tags:
 featured: false
 
 links:
-- name: PDF
-  url: paper.pdf
+# - name: PDF
+#   url: paper.pdf
 - name: SSRN
   url: http://ssrn.com/abstract=3576173
 url_pdf: 
