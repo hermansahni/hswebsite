@@ -62,7 +62,7 @@ links:
 # - name: PDF
 #   url: paper.pdf
 - name: SSRN
-  url: http://ssrn.com/abstract=3576173
+  url: http://ssrn.com/abstract=3778399
 url_pdf: 
 url_code: 'https://github.com/hermansahni/codes/blob/master/tourismEconomics2020'
 url_dataset: ''
