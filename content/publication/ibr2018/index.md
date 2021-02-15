@@ -1,5 +1,5 @@
 ---
-title: "The Impact of Firm Financial Efficiency on Executive Compensation of United States Apparel Stores Industry"
+title: "The Impact of Firm Financial Efficiency on Executive Compensation"
 subtitle: An Application of Panel Data Envelopment Analysis
 
 authors:
