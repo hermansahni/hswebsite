@@ -68,7 +68,7 @@ url_code: 'https://github.com/hermansahni/codes/blob/master/tourismEconomics2020
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'https://www.hermansahni.com/slides/jad2020/'
+url_slides: ''
 url_source: ''
 url_video: ''
 
@@ -91,7 +91,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: `content/slides/jad2020/index.md`
 ---
 
 
