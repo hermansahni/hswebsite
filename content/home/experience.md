@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """
   Highlights:
   
-  * Dayton C. Miller Inductee Most Influential Professor - 2017, 2019.
+  * Dayton C. Miller Inductee Most Influential Professor - 2017, 2019, 2020.
   """
 
 +++
