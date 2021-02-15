@@ -91,7 +91,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: `content/slides/jad2020/index.md`
+slides: `content/publication/jad2020/slides.md`
 ---
 
 
