@@ -68,7 +68,7 @@ url_code: 'https://github.com/hermansahni/codes/blob/master/tourismEconomics2020
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'https://www.hermansahni.com/slides/jad2020/'
 url_source: ''
 url_video: ''
 
