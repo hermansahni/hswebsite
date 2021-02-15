@@ -102,7 +102,7 @@ address = {street = "275 Eastland Road", city = "Berea", region = "OH", postcode
 coordinates = {latitude = "41.369470", longitude = "-81.845500"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+# directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
