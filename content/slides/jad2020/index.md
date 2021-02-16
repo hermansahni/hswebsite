@@ -42,11 +42,22 @@ slides:
 
 ### Herman Sahni, Christian Nsiah, Bichaka Fayissa
 
-[African Finance & Economics Association]() | [Allied Social Sciences Association]()
+[African Finance & Economics Association]() | [Allied Social Sciences Association 2020]()
+
 
 ---
 
-## Features
+## Outline
+
+- Motivation and Objectives of the Paper
+- Review of Selected Literature & contributions to existing literature
+- The Empirical Models
+- Summary and Interpretations of Results
+- Conclusions and Policy Implications
+
+---
+
+## Outline
 
 - Efficiently write slides in Markdown
 - 3-in-1: Create, Present, and Publish your slides
