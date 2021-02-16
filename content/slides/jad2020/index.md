@@ -79,11 +79,9 @@ slides:
 
 - No African country in the top 20 country ranking
 - Highest ranked African countries:
-- Rwanda (40), Seychelles (41), Morocco (42), Namibia (45), Mauritius (50)
+-- Rwanda (40), Seychelles (41), Morocco (42), Namibia (45), Mauritius (50)
 - 14 African countries ranked in the bottom 20 countries
-- Source: [http://reports.weforum.org/global-competitiveness-index-2017-
-2018/downloads/](http://reports.weforum.org/global-competitiveness-index-2017-
-2018/downloads/)
+- Source: [reports.weforum.org/global-competitiveness-index-2017-2018/](https://reports.weforum.org/global-competitiveness-index-2017-2018/)
 
 
 ---
