@@ -93,7 +93,7 @@ _Electricity Issues_
 
 - Frequent power outages, restricting access to electricity to a third of Africa’s
 population, reducing its productivity by as much as 40%, and curtailing its
-annual economic growth by about 2% (PIDA, 2014)
+annual economic growth by about 2% ([PIDA, 2014](https://bit.ly/2E9jm3K))
 - Only 30% of African countries have access to electricity relative to 70-90% of
 other developing countries 
 
