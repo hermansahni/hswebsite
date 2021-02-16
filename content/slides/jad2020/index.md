@@ -73,7 +73,7 @@ slides:
 
 ### Literature
 
-** Infrastructure Quality Index **
+Infrastructure Quality Index
 
 _Ranking_
 
@@ -87,30 +87,38 @@ _Ranking_
 
 ### Literature (cont'd.)
 
-** Infrastructure Quality Index **
+Infrastructure Quality Index
 
 _Electricity Issues_
 
 - Frequent power outages, restricting access to electricity to a third of Africa’s
 population, reducing its productivity by as much as 40%, and curtailing its
-annual economic growth by about 2% ([PIDA, 2014](https://bit.ly/2E9jm3K))
-- Only 30% of African countries have access to electricity relative to 70-90% of
-other developing countries 
+annual economic growth by about 2% ([PIDA, 2014](https://www.afdb.org/en/topics-and-sectors/initiatives-partnerships/programme-for-infrastructure-development-in-africa-pida))
+- Only 30% of African countries have access to electricity relative to 70%-90% of other developing countries 
 
 ---
 
 ### Motivation 
 
-** Infrastructure & Growth **
+Infrastructure & Growth
 
-- Well-designed infrastructure investments (Energy, transport, digital communications, waste disposal networks, and water and sanitation facilities) have long-term economic benefits
-• Infrastructure raise productivity, decrease transportation and communication costs, increase land values, improve health
-• Cause significant positive spillovers.
-• However, over-investment can lead to inefficiency and low marginal returns
+* Well-designed infrastructure investments (Energy, transport, digital communications, waste disposal networks, and water and sanitation facilities) have long-term economic benefits
+    * Infrastructure raise productivity, decrease transportation and communication costs, increase land values, improve health
+    * Cause significant positive spillovers.
+
+* However, investing wisely in infrastructure is critically important
+    * Over-investment can lead to inefficiency and low marginal returns
 
 ---
 
+#### Link between Infrastructure and Growth 
 
+* Economic policy analysts assert that there are five channels through which infrastructure may impact economic growth including:
+    * as a direct input into the production process serving as a factor of production,
+    * as a complement to other inputs into the production process,
+    * as a stimulant to factor accumulation by providing facilities for human development, through
+    * increased expenditure during construction and maintenance operations,
+    * and as a tool to guide industrial policy (Wolassa, 2012). 
 
 
 
