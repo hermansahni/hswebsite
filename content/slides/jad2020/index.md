@@ -1,8 +1,33 @@
 ---
-title: Slides
-summary: An introduction to using Academic's Slides feature.
-authors: []
-tags: []
+title: ASSA2020
+summary: Institutional Quality, Infrastructure and Economic Growth in Africa
+authors:
+- admin
+- Christian Nsiah
+- Bichaka Fayissa
+tags:
+- Infrastructure
+- Governance
+- Rule of Law
+- ICT
+- Transport
+- Electricity
+- Water and Sanitation
+- Economic Growth
+- Africa
+- World Bank
+- Fixed effects
+- Threshold Analysis
+- System GMM estimation
+- Panel data
+- Allied Social Sciences Associations
+- Journal of African Development
+- 2020
+- JEL H54
+- JEL O40
+- JEL O43
+- JEL O47
+- JEL O55
 categories: []
 date: "2019-02-05T00:00:00Z"
 slides:
