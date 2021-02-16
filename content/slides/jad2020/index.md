@@ -1,5 +1,5 @@
 ---
-title: ASSA2020
+title: JAD2020
 summary: Institutional Quality, Infrastructure and Economic Growth in Africa
 authors:
 - admin
@@ -38,9 +38,9 @@ slides:
   highlight_style: dracula
 ---
 
-# Institutional Quality, Infrastructure and Economic Growth in Africa
+## Institutional Quality, Infrastructure and Economic Growth in Africa
 
-## Herman Sahni, Christian Nsiah, Bichaka Fayissa
+### Herman Sahni, Christian Nsiah, Bichaka Fayissa
 
 [African Finance & Economics Association]() | [Allied Social Sciences Association]()
 
