@@ -221,3 +221,12 @@ Create `assets/css/reveal_custom.css` with:
 [Ask](https://spectrum.chat/academic)
 
 [Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-slides)
+
+{{ $mermaid := resources.Get "/path/to/mermaid.min.js" }}
+<script src="{{ $mermaid.RelPermalink }}"></script>
+<script>
+    window.onload = function() {
+        mermaid.init(undefined, ".language-mermaid");
+    };
+</script>
+
