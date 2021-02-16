@@ -38,9 +38,11 @@ slides:
   highlight_style: dracula
 ---
 
-# Create slides in Markdown with Academic
+# Institutional Quality, Infrastructure and Economic Growth in Africa
 
-[Academic](https://sourcethemes.com/academic/) | [Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-slides)
+## Herman Sahni, Christian Nsiah, Bichaka Fayissa
+
+[African Finance & Economics Association]() | [Allied Social Sciences Association]()
 
 ---
 
