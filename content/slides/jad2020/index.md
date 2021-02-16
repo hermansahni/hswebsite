@@ -71,26 +71,25 @@ slides:
 ---
 
 
-## Literature
+### Literature
 
-### Infrastructure Quality Index
+** Infrastructure Quality Index **
 
-#### Ranking 
+_Ranking_
 
-- No African country in the top 20 country ranking
-- Highest ranked African countries:
+- No African country in the top 20
+- Highest ranked:
 -- Rwanda (40), Seychelles (41), Morocco (42), Namibia (45), Mauritius (50)
-- 14 African countries ranked in the bottom 20 countries
+- 14 African countries ranked in the bottom 20
 - Source: [reports.weforum.org/global-competitiveness-index-2017-2018/](https://reports.weforum.org/global-competitiveness-index-2017-2018/)
-
 
 ---
 
-## Literature (cont'd.)
+### Literature (cont'd.)
 
-### Infrastructure Quality Index
+** Infrastructure Quality Index **
 
-#### Electricity Issues
+_Electricity Issues_
 
 - Frequent power outages, restricting access to electricity to a third of Africa’s
 population, reducing its productivity by as much as 40%, and curtailing its
@@ -98,7 +97,16 @@ annual economic growth by about 2% (PIDA, 2014)
 - Only 30% of African countries have access to electricity relative to 70-90% of
 other developing countries 
 
+---
 
+### Motivation 
+
+** Infrastructure & Growth **
+
+- Well-designed infrastructure investments (Energy, transport, digital communications, waste disposal networks, and water and sanitation facilities) have long-term economic benefits
+• Infrastructure raise productivity, decrease transportation and communication costs, increase land values, improve health
+• Cause significant positive spillovers.
+• However, over-investment can lead to inefficiency and low marginal returns
 
 ---
 
