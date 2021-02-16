@@ -49,13 +49,32 @@ slides:
 
 ## Outline
 
-- Motivation and Objectives of the Paper
-- Review of Selected Literature & contributions to existing literature
+- Motivation and objectives of the Paper
+- Literature review & contributions
 - The Empirical Models
 - Summary and Interpretations of Results
 - Conclusions and Policy Implications
 
 ---
+
+## Outline
+
+
+
+```ditaa {cmd=true agrs=["-E"]}
++--------+   +--------+    +--------+
+|        | --+ ditaa  +--> |        |
+| A      |   +--------+    | B      |
+|        |   |        |    |        |
+|        |   |        |    |        |
++---+----+   +--------+    +--------+
+    :                           ^
+    |           C               |
+    +---------------------------+
+```
+
+---
+
 
 ## Outline
 
