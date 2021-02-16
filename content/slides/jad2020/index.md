@@ -71,6 +71,58 @@ slides:
 ---
 
 
+## Literature
+
+### Infrastructure Quality Index
+
+#### Ranking 
+
+- No African country in the top 20 country ranking
+- Highest ranked African countries:
+- Rwanda (40), Seychelles (41), Morocco (42), Namibia (45), Mauritius (50)
+- 14 African countries ranked in the bottom 20 countries
+- Source: [http://reports.weforum.org/global-competitiveness-index-2017-
+2018/downloads/](http://reports.weforum.org/global-competitiveness-index-2017-
+2018/downloads/)
+
+
+---
+
+## Literature (cont'd.)
+
+### Infrastructure Quality Index
+
+#### Electricity Issues
+
+- Frequent power outages, restricting access to electricity to a third of Africa’s
+population, reducing its productivity by as much as 40%, and curtailing its
+annual economic growth by about 2% (PIDA, 2014)
+- Only 30% of African countries have access to electricity relative to 70-90% of
+other developing countries 
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Outline
 
 - Efficiently write slides in Markdown
