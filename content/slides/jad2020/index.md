@@ -36,6 +36,8 @@ slides:
   # Choose a code highlighting style (if highlighting enabled in `params.toml`)
   #   Light style: github. Dark style: dracula (default).
   highlight_style: dracula
+diagram: true
+mermaid: true
 ---
 
 ## Institutional Quality, Infrastructure and Economic Growth in Africa
@@ -49,10 +51,10 @@ slides:
 
 ### Outline
 
-- Motivation and objectives of the Paper
+- Motivation and objectives
 - Literature review & contributions
-- The Empirical Models
-- Summary and Interpretations of Results
+- Empirical models
+- Results
 - Conclusions and Policy Implications
 
 ---
@@ -287,12 +289,3 @@ Create `assets/css/reveal_custom.css` with:
 [Ask](https://spectrum.chat/academic)
 
 [Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-slides)
-
-{{ $mermaid := resources.Get "/path/to/mermaid.min.js" }}
-<script src="{{ $mermaid.RelPermalink }}"></script>
-<script>
-    window.onload = function() {
-        mermaid.init(undefined, ".language-mermaid");
-    };
-</script>
-
