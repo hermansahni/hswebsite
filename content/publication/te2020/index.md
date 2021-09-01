@@ -25,13 +25,13 @@ publishDate: "2020-05-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Tourism Economics (forthcoming)*"
+publication: "*Tourism Economics, 27*(5)"
 publication_short: "TE"
 
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: Tourism Economics (forthcoming).
+summary: Tourism Economics, 27(5), pp. 915--184.
 
 tags:
 - Tourism
