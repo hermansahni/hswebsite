@@ -25,13 +25,13 @@ publishDate: "2020-09-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of African Development (forthcoming)*"
+publication: "*Journal of African Development, 22*(1), pp. 7--37."
 publication_short: "JAD"
 
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: Journal of African Development (forthcoming).
+summary: Journal of African Development, 22(1), pp. 7--37.
 
 tags:
 - Infrastructure
