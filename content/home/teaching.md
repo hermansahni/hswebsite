@@ -25,7 +25,7 @@ title: Teaching
 | corporate finance (MA)                         |            |            | &#x1F5F8;  | &#x1F5F8;  |            |            |            |
 | financial management (MBA)                     |            |            |            | &#x1F5F8;  |            |            |            |
 | statistical methods in population health (MPH) |            |            | &#x1F5F8;  |            |            |            |            |
-| health economics (MBA)                         |            |            | &#x1F5F8;  | &#x1F5F8;  |            |            |            |
+| health economics (MBA)                         |            |            | &#x1F5F8;  | &#x1F5F8;  |            |            | &#x1F5F8;  |
 | corporate finance                              |            |            |            |            | &#x1F5F8;  |            |            |
 | financial management                           |            |            |            | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  |
 | empirical methods in finance                   |            |            |            |            | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  |
