@@ -105,14 +105,6 @@ This paper investigates the nonlinear relationship between tourism and economic 
 ____
 
 
-
-*Presented at*
-
-- Allied Social Sciences Associations, Philadelphia, PA [January 2018].
-
-____
-
-
 JEL codes: O40, O47, O55, Z30, Z32.
 
 
