@@ -57,7 +57,7 @@ links:
 # - name: PDF
 #   url: paper.pdf
 - name: SSRN
-  url: http://ssrn.com/abstract=3576173
+  url: http://ssrn.com/abstract=4179704
 url_pdf: 
 url_code: ''
 url_dataset: ''
