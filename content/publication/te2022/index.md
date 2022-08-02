@@ -12,7 +12,7 @@ authors:
 
 date: "2022-06-10T00:00:00Z"
 
-doi: "10.1177/1354816620908688"
+doi: "10.1177/13548166221111311"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-06-10T00:00:00Z"
@@ -59,7 +59,7 @@ links:
 - name: SSRN
   url: http://ssrn.com/abstract=3576173
 url_pdf: 
-url_code: 'https://github.com/hermansahni/codes/blob/master/tourismEconomics2020'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
