@@ -6,7 +6,7 @@ title: Herman Sahni
 superuser: true
 
 # Role/position/tagline
-role: Associate Professor of Finance
+role: Coordinator, Economics & Associate Professor of Economics and Finance
 
 # Organizations/Affiliations to show in About widget
 organizations:
