@@ -6,7 +6,7 @@ title: Herman Sahni
 superuser: true
 
 # Role/position/tagline
-role: Assistant Professor of Finance
+role: Associate Professor of Finance
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -89,4 +89,4 @@ user_groups:
 - Visitors
 ---
 
-Herman Sahni is an assistant professor of economics and finance at the Baldwin Wallace University. Her research interests include labor economics, health economics, development economics, and corporate finance. Her current research estimates of the effects of caregiving for older family members with Alzheimers on the labor supply of coresiding younger family members, the impact of electricity access to early childhood education in India, the state-wise analyzes of the relationship between opioid prescribing habits of physicians and the monetary gifts that they receive from pharmaceutical companies in the presence of real-time prescription drug monitoring programs (PDMPs), and market restrictions to business networking of female CEOs and how it impacts their decision-making.
+Herman Sahni is the coordinator of the economics program and an associate professor of economics and finance at the Baldwin Wallace University. Her research interests include labor economics, health economics, development economics, and corporate finance. Her current research estimates of the effects of caregiving for older family members with Alzheimers on the labor supply of coresiding younger family members, the impact of electricity access to early childhood education in India, the state-wise analyzes of the relationship between opioid prescribing habits of physicians and the monetary gifts that they receive from pharmaceutical companies in the presence of real-time prescription drug monitoring programs (PDMPs), and market restrictions to business networking of female CEOs and how it impacts their decision-making.
