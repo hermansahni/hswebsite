@@ -18,30 +18,22 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Associate Professor of Economics and Finance"
+  company = "Baldwin Wallace University"
+  company_url = ""
+  location = "Ohio"
+  date_start = "2022-08-01"
+  date_end = ""
+  description = """
   title = "Assistant Professor of Economics and Finance"
   company = "Baldwin Wallace University"
   company_url = ""
   location = "Ohio"
   date_start = "2016-08-01"
-  date_end = ""
+  date_end = "2022-07-31"
   description = """
   Highlights:
-  
   * Dayton C. Miller Inductee Most Influential Professor - 2017, 2019, 2020.
   """
 
-+++
-
-  title = "Assistant Professor of Economics and Finance"
-  company = "Baldwin Wallace University"
-  company_url = ""
-  location = "Ohio"
-  date_start = "2016-08-01"
-  date_end = ""
-  description = """
-  Highlights:
-  
-  * Dayton C. Miller Inductee Most Influential Professor - 2017, 2019, 2020.
-  """
-  
 +++
