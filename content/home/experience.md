@@ -29,5 +29,15 @@ date_format = "Jan 2006"
   
   * Dayton C. Miller Inductee Most Influential Professor - 2017, 2019, 2020.
   """
-
+  title = "Assistant Professor of Economics and Finance"
+  company = "Baldwin Wallace University"
+  company_url = ""
+  location = "Ohio"
+  date_start = "2016-08-01"
+  date_end = ""
+  description = """
+  Highlights:
+  
+  * Dayton C. Miller Inductee Most Influential Professor - 2017, 2019, 2020.
+  """
 +++
