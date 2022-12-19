@@ -1,6 +1,6 @@
 ---
-title: "The Effects on Labor Supply of Living with Older Family Members"
-subtitle: "Needing Assistance with Activities of Daily Living"
+title: "The Effects on Labor Supply of Living with Older Family Members Needing Assistance with Activities of Daily Living"
+subtitle: ""
 
 authors:
 - Virginia Wilcox
