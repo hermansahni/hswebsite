@@ -20,4 +20,4 @@ title: CV
 # author: admin
 ---
 
-My CV is available in [PDF](files/cv.pdf) form. (Last updated: September 27, 2020)
+My CV is available in [PDF](files/cv.pdf) form. (Last updated: May 9, 2023)
