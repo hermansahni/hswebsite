@@ -12,11 +12,11 @@ title = "Dr. Herman Sahni"
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 # baseurl = "/"
-baseurl = "http://www.hermansahni.com/"
+baseurl = "http://www.hsahni.com/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "&copy;2021 Herman Sahni"
+copyright = "&copy;`{year}` Herman Sahni"
 
 ############################
 ## Advanced options below ##
