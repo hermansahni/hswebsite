@@ -37,3 +37,4 @@ title: Teaching
 | SAS programming for Base Certification         |            | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  |            |            |           |
 | intro to business                              |            |            | &#x1F5F8;  |            |            |            |            |           |
 | financial analytics (Bloomberg/Excel)          |            |            | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  |           |
+| independent study                              |            | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  |            |            | &#x1F5F8;  | &#x1F5F8; |
