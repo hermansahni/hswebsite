@@ -28,6 +28,8 @@ title: Teaching
 | financial management (MBA)                     |            |            |            | &#x1F5F8;  |            |            |            |           |
 | statistical methods in population health (MPH) |            |            | &#x1F5F8;  |            |            |            |            |           |
 | health economics (MBA)                         |            |            | &#x1F5F8;  | &#x1F5F8;  |            |            | &#x1F5F8;  | &#x1F5F8; |
+| labor economics                                |            | &#x1F5F8;  |            |            |            |            |            |           |
+| microeconomics (principles)                    | &#x1F5F8;  | &#x1F5F8;  |            |            |            |            |            | &#x1F5F8; |
 | corporate finance                              |            |            |            |            | &#x1F5F8;  |            |            |           |
 | financial management                           |            |            |            | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8; |
 | empirical methods in finance / econometrics    | &#x1F5F8;  | &#x1F5F8;  |            |            | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8; |
@@ -35,5 +37,3 @@ title: Teaching
 | SAS programming for Base Certification         |            | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  |            |            |           |
 | intro to business                              |            |            | &#x1F5F8;  |            |            |            |            |           |
 | financial analytics (Bloomberg/Excel)          |            |            | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  | &#x1F5F8;  |           |
-| labor economics                                |            | &#x1F5F8;  |            |            |            |            |            |           |
-| microeconomics (principles)                    | &#x1F5F8;  | &#x1F5F8;  |            |            |            |            |            | &#x1F5F8; |
