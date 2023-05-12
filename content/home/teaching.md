@@ -22,7 +22,7 @@ title: Teaching
 
 | Course                                         | 2016       | 2017       | 2018       | 2019       | 2020       | 2021       | 2022       |2023       |
 | -----------------------------------------------| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |:--------: |
-| corporate finance (MA)                         |            |            | &#x1F5F8;  | &#x1F5F8;  |            |            |            |           |
+| corporate finance (MA)                         |            |            | &#x1F5F8;&#x1F5F8;  | &#x1F5F8;  |            |            |            |           |
 | financial management (MBA)                     |            |            |            | &#x1F5F8;  |            |            |            |           |
 | statistical methods in population health (MPH) |            |            | &#x1F5F8;  |            |            |            |            |           |
 | health economics (MBA)                         |            |            | &#x1F5F8;  | &#x1F5F8;  |            |            | &#x1F5F8;  | &#x1F5F8; |
