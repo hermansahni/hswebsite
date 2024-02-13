@@ -1,6 +1,6 @@
 ---
 title: "Missed Opportunities in Guideline-based Fatty Liver Screening among 3.5 million children"
-subtitle: ""
+subtitle:
 
 authors:
 - Reema Gulati
@@ -13,6 +13,7 @@ authors:
 - Roamaa Suri
 
 # author_notes:
+# - "Equal contribution"
 # - "Equal contribution"
 
 date: "2024-01-24T00:00:00Z"
@@ -29,13 +30,13 @@ publishDate: "2024-01-24T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Academic Pediatrics (Official Journal of the Academic Pediatric Association)"
-publication_short: "Academic Pediatrics"
+publication: "Academic Pediatrics (forthcoming)"
+publication_short: "Acad. Pediatr"
 
-abstract: Determine screening rates and examine socio-demographic characteristics of MAFLD screening in a large population of obese children. Methods: We used Explorys (IBM) which contains aggregated population-level electronic health record data from approximately 360 hospitals and 317,000 providers across the United States to determine MAFLD screening rates. In children 10-14 years, obesity was determined based on BMI >=95%, or encounter with an ICD obesity code. We determined screening rates by calculating the percentage of children with obesity who had an alanine aminotransferase (ALT) tested, further analyzed by gender, race and insurance. Results: Of 3,558,420 children, 513,170 (14.4%) were obese. Of obese children, only 9.3% were screened for NAFLD. Females were more likely screened than males (odds ratio (OR) 1.09 (95% CI:1.07-1.12)); white children were more likely screened than non-white children (OR 1.21 (95% CI:1.18-1.23)), and children with Medicaid more likely screened than children with non-Medicaid insurance (OR 1.34 (95% CI:1.32- 1.37)). Conclusion(s): The percentage of obese children receiving screening for MAFLD was low. Female gender, white race, and Medicaid insurance were associated with increased screening rates. These findings highlight the need to increase adherence to MAFLD screening. Reporting screening as a health quality measure may reduce implementation gaps in MAFLD screening. What's new in this study? Our study adds knowledge about screening rates and sociodemographic characteristics of MAFLD screening among children.
+abstract:
 
 # Summary. An optional shortened abstract.
-summary: Determine screening rates and examine socio-demographic characteristics of MAFLD screening in a large population of obese children.
+summary: Academic Pediatrics (forthcoming).
 
 tags:
 - Metabolic dysfunction-associated steatotic liver disease
