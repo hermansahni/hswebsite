@@ -24,13 +24,13 @@ publishDate: "2022-07-18T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Tourism Economics, 29(6), pp. 1533–1550."
+publication: "Tourism Economics, 29(6), pp. 1533–1550."
 publication_short: "TE"
 
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: Tourism Economics (forthcoming).
+summary: Tourism Economics, 29(6), pp. 1533–1550.
 
 tags:
 - Tourism
