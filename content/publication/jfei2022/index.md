@@ -24,13 +24,14 @@ publishDate: "2022-11-30T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Family and Economic Issues (forthcoming)."
-publication_short: "JFEI"
+publication: "*Journal of Family and Economic Issues, 44*(1), pp. 900--918."
+publication_short: "J Fam Econ Iss"
 
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: Journal of Family and Economic Issues (forthcoming).
+summary: Journal of Family and Economic Issues, 44(1), pp. 900--918.
+
 
 tags:
 - Elder caregiving
